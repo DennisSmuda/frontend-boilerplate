@@ -1,13 +1,13 @@
-# VOLL Frontend
+# Frontend Boilerplate
 
-Experimental Feature Playground
+Frontend Clickdummy Boilerplate
 
 
 ## Installing
 
 **Clone Repo**
 ```
-git clone git@bitbucket.org:volldigital/voll-frontend.git
+git clone git@github.com:dennissmuda/frontend-boilerplate
 ```
 
 **Install Dependencies**
