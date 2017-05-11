@@ -1,0 +1,22 @@
+@import "base/typo.css";
+
+:root {
+  --color-black: rgb(0, 0, 0);
+  --color-yellow: rgb(200, 228, 100);
+}
+
+* {
+  margin: 0rem;
+}
+
+
+h1 {
+  background-color: var(--color-black);
+  font-family: var(--font-header);
+  color: yellow;
+
+}
+
+
+main {
+}

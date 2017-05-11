@@ -1,0 +1,5 @@
+
+:root {
+  --font-radikal-black: 'Radikal W01 Black';
+  --font-header: var(--font-radikal-black);
+}
