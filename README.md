@@ -30,7 +30,7 @@ Webpack build (ES6 / PostCSS) + Pug Templating
 ## Installing
 **Clone Repo**
 ```
-git clone git@bitbucket.org:volldigital/voll-frontend.git
+git clone git@github.com:dennissmuda/frontend-boilerplate
 ```
 **Install Dependencies**
 ```
