@@ -1,6 +1,6 @@
 # Frontend Boilerplate
 
-Clickdummy Frontend Boilerplate
+Frontend Clickdummy Boilerplate
 
 Webpack build (ES6 / PostCSS) + Pug Templating
 
@@ -25,7 +25,6 @@ Webpack build (ES6 / PostCSS) + Pug Templating
 >      - --viewport-desktop-huge : (min-width : 1920px),
 
 ![screenshot](public/screen.png)
-
 
 ## Installing
 **Clone Repo**
