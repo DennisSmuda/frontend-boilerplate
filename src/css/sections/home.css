@@ -1,0 +1,12 @@
+.filler {
+  // height: 100vh;
+  background-color: gray(70%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offset {
+  margin-top: 100px;
+}

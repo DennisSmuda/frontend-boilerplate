@@ -1,0 +1,8 @@
+
+section.home__grid {
+  width: 100%;
+  background: gray(95%);
+
+  lost-utility: clearfix;
+}
+

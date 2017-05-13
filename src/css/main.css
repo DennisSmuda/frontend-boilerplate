@@ -1,22 +1,26 @@
-@import "base/typo.css";
+@import "reset-css/reset";
 
-:root {
-  --color-black: rgb(0, 0, 0);
-  --color-yellow: rgb(200, 228, 100);
-}
+@import "base/variables";
+@import "base/base";
+@import "base/typo";
 
-* {
-  margin: 0rem;
-}
+@import "blocks/home/home__grid";
+@import "blocks/header/header";
+
+@import "sections/home.css";
 
 
-h1 {
-  background-color: var(--color-black);
-  font-family: var(--font-header);
-  color: yellow;
-
-}
 
 
 main {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 2rem;
+
+  width: 100%;
+
+  & div {
+    width: 100%;
+  }
 }

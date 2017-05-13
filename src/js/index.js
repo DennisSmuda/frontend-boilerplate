@@ -1,4 +1,19 @@
 import styles from '../css/main.css';
 
-console.log("Hello");
+/**
+ * Imports
+ */
+import Barba from 'barba.js';
 
+// Transitions
+import FadeTransition from './transitions/fade';
+
+
+/**
+ * Setup Transition
+ */
+Barba.Pjax.getTransition = function() {
+  return FadeTransition;
+}
+
+Barba.Pjax.start();

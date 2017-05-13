@@ -1,0 +1,14 @@
+/**
+ * Fonts
+ */
+:root {
+  --font-main: 'Fira Mono', sans-serif;
+}
+
+/**
+ * Colors
+ */
+:root {
+  --color-primary: #ff8344;
+  --color-secondary: #ff1fff;
+}

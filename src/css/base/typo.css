@@ -1,5 +1,131 @@
+/* General Heading Styles */
 
-:root {
-  --font-radikal-black: 'Radikal W01 Black';
-  --font-header: var(--font-radikal-black);
+body {
+  font-family: var(--font-main);
+  color: var(--color-vb-0-8);
+  font-weight: 600;
+  line-height: 1;
+}
+
+div, span, p, a {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 6.7vw;
+  margin-bottom: 1rem;
+
+  @media (--viewport-desktop-huge) {
+    font-size: 128px;
+  }
+
+  @media (--viewport-tablet-small) {
+    font-size: 42px;
+  }
+
+  @media (--viewport-phone-small) {
+    font-size: 36px;
+  }
+}
+
+
+h2 {
+  font-size: 5.5vw;
+  margin: 1rem 0;
+
+  @media (--viewport-desktop-huge) {
+    font-size: 72px;
+  }
+
+  @media (--viewport-tablet-small) {
+    font-size: 32px;
+  }
+
+  @media (--viewport-phone-small) {
+    font-size: 28px;
+  }
+}
+
+
+h3 {
+  color: var(--color-vb-4-8);
+  font-size: 96px;
+
+  @media (--viewport-desktop-wide) {
+    font-size: 72px;
+  }
+
+  @media (--viewport-tablet-wide) {
+    font-size: 48px;
+  }
+
+  @media (--viewport-tablet-small) {
+    font-size: 32px;
+  }
+
+  @media (--viewport-phone-small) {
+    font-size: 28px;
+  }
+}
+
+
+h4 {
+  color: var(--color-vb-4-8);
+  font-size: 72px;
+
+  @media (--viewport-desktop-wide) {
+    font-size: 48px;
+  }
+  @media (--viewport-tablet-wide) {
+    font-size: 32px;
+  }
+  @media (--viewport-tablet-small) {
+    font-size: 28px;
+  }
+  @media (--viewport-phone-small) {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  color: $black-80;
+  line-height: 1.15;
+  font-size: 40px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+
+  @media (--viewport-desktop-wide) {
+    font-size: 36px;
+  }
+  @media (--viewport-tablet-wide) {
+    font-size: 32px;
+  }
+  @media (--viewport-tablet-small) {
+    font-size: 28px;
+  }
+  @media (--viewport-phone) {
+    font-size: 24px;
+  }
+}
+
+h6 {
+  color: $black-80;
+  line-height: 1.15;
+  font-size: 32px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+
+
+  @media (--viewport-desktop-wide) {
+    font-size: 30px;
+  }
+  @media (--viewport-tablet-wide) {
+    font-size: 28px;
+  }
+  @media (--viewport-tablet-small) {
+    font-size: 26px;
+  }
+  @media (--viewport-phone-small) {
+    font-size: 24px;
+  }
 }

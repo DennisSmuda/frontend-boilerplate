@@ -1,0 +1,26 @@
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2rem;
+
+  border-bottom: 1px solid gray(80%);
+
+  display: flex;
+  justify-content: space-between;
+
+  & span {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  & a {
+    color: black;
+    padding-left: 0.5rem;
+
+  }
+  & a:hover {
+    text-decoration: none;
+  }
+}

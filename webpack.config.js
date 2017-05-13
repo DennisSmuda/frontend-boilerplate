@@ -9,10 +9,11 @@ const config = {
   context: path.resolve(__dirname, 'src'),
   entry: {
     app: './js/index.js',
+    vendor: ['jquery', 'gsap']
   },
   output: {
     path: path.resolve(__dirname, './public'),
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
   resolve: {
     modules: ['node_modules']
@@ -35,6 +36,13 @@ const config = {
   },
   plugins: [
     new ExtractTextWebpackPlugin('./main.css'),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks: function (module) {
+        // this assumes your vendor imports exist in the node_modules directory
+        return module.context && module.context.indexOf('node_modules') !== -1;
+      }
+    })
   ],
   devServer: {
     contentBase: path.resolve(__dirname, './public'),
