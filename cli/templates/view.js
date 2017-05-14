@@ -1,15 +1,17 @@
-// Imports
+const viewTemplate = {
+  make(name, uName, objName) {
+    return `// Imports
 import { BaseView } from 'barba.js';
 import $ from 'jquery';
 
 /**
- * Butz Page BarbaView
+ * ${uName} Page BarbaView
  */
-const ButzView = BaseView.extend({
-  namespace: 'butz',
+const ${objName} = BaseView.extend({
+  namespace: '${name}',
   onEnter: function() {
       // The new Container is ready and attached to the DOM.
-      console.log("Enter Butz View");
+      console.log("Enter ${uName} View");
   },
   onEnterCompleted: function() {
       // The Transition has just finished.
@@ -20,7 +22,8 @@ const ButzView = BaseView.extend({
   onLeaveCompleted: function() {
       // The Container has just been removed from the DOM.
   }
-});
+    `;
+  }
+}
 
-export default ButzView;
-    
+module.exports = viewTemplate;

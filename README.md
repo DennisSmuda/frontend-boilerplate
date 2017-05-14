@@ -7,7 +7,8 @@ Webpack build (ES6 / PostCSS) + Pug Templating
 Includes Minimal CLI to generate repetetive code
 
 ```js
-// Create new Route pug template + view script
+// Create new Route
+// - pug template + view script
 node cli g:route <name>
 ```
 
