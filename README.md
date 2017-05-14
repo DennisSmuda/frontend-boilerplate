@@ -1,7 +1,5 @@
 # Frontend Boilerplate
 
-Frontend Clickdummy Boilerplate
-
 Webpack build (ES6 / PostCSS) + Pug Templating
 
 Includes Minimal CLI to generate repetetive code
@@ -82,6 +80,12 @@ yarn start
 **Watch templates directory**
 ```
 yarn templates
+```
+
+## Testing
+**Run all tests**
+```
+yarn run tests
 ```
 
 ## Production Build
