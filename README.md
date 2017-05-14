@@ -10,9 +10,9 @@ Webpack build (ES6 / PostCSS) + Pug Templating
 - **Barba.js**
 - **GSAP**
 - **PostCSS**
-- **CSSNext**
-- **AutoPrefixer**
-  - *Custom Media Queries*
+  - **CSSNext**
+  - **AutoPrefixer**
+  - **Custom Media Queries**
      - --viewport-phone-small  : (max-width : 320px)
      - --viewport-phone        : (max-width : 400px),
      - --viewport-phone-wide   : (max-width : 480px),
