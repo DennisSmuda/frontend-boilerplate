@@ -4,16 +4,37 @@ Frontend Clickdummy Boilerplate
 
 Webpack build (ES6 / PostCSS) + Pug Templating
 
+Includes Minimal CLI to generate repetetive code
 
-## Included Defaults
+```js
+// Create new Route pug template + view script
+node cli g:route <name>
+```
 
-**jQuery**
 
-**Barba.js**
+## Included Libraries
 
-**GSAP**
+#### [jQuery.js](https://jquery.org)
 
-**PostCSS**
+```js
+import $ from 'jquery';
+```
+
+#### [Barba.js](http://barbajs.org)
+
+```javascript
+import Barba, { BaseView, BaseTransition } from 'barba.js';
+```
+
+#### [GSAP](https://greensock.com)
+
+```javascript
+import { TweenMax, TimelineMax } from 'gsap';
+```
+
+#### [PostCSS](http://postcss.org/)
+
+See ```postcss.config.js``` for plugin configuration
 
 - **CSSNext**
 - **AutoPrefixer**
