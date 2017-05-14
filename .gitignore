@@ -3,3 +3,5 @@
 !/logs/README.md
 /node_modules/
 /.idea/
+
+/public/*.html
