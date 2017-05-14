@@ -1,7 +1,7 @@
 {
-  "name": "voll-frontend",
+  "name": "frontend boilerplate",
   "version": "0.0.1",
-  "description": "VOLL Website - Frontend testing area",
+  "description": "Frontend Boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server -d --hot --watch",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/volldigital/voll-frontend.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/volldigital/voll-frontend#readme",
+  "homepage": "dennissmuda.github.io",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
