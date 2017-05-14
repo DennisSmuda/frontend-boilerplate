@@ -5,7 +5,7 @@ Frontend Clickdummy Boilerplate
 Webpack build (ES6 / PostCSS) + Pug Templating
 
 
-##Included Defaults
+## Included Defaults
 
 **jQuery**
 
