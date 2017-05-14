@@ -6,6 +6,7 @@ Webpack build (ES6 / PostCSS) + Pug Templating
 
 
 ##Included Defaults
+
 **jQuery**
 
 **Barba.js**
