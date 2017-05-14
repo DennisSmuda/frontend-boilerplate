@@ -1,15 +1,13 @@
+/* Reset */
 @import "reset-css/reset";
-
+/* Base */
 @import "base/variables";
 @import "base/base";
 @import "base/typo";
-
-@import "blocks/home/home__grid";
+/* Blocks */
 @import "blocks/header/header";
-
+/* Sections */
 @import "sections/home.css";
-
-
 
 
 main {

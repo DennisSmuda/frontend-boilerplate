@@ -2,7 +2,7 @@
 
 body {
   font-family: var(--font-main);
-  color: var(--color-vb-0-8);
+  color: gray(20%);
   font-weight: 600;
   line-height: 1;
 }
@@ -48,7 +48,7 @@ h2 {
 
 
 h3 {
-  color: var(--color-vb-4-8);
+  color: gray(20%);
   font-size: 96px;
 
   @media (--viewport-desktop-wide) {
@@ -70,7 +70,7 @@ h3 {
 
 
 h4 {
-  color: var(--color-vb-4-8);
+  color: gray(50%);
   font-size: 72px;
 
   @media (--viewport-desktop-wide) {
@@ -88,7 +88,7 @@ h4 {
 }
 
 h5 {
-  color: $black-80;
+  color: gray(50%);
   line-height: 1.15;
   font-size: 40px;
   margin-top: 1rem;
