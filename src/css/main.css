@@ -8,17 +8,3 @@
 @import "blocks/header/header";
 /* Sections */
 @import "sections/home.css";
-
-
-main {
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  padding: 2rem;
-
-  width: 100%;
-
-  & div {
-    width: 100%;
-  }
-}

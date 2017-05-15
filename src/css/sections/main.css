@@ -1,3 +1,16 @@
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 2rem;
+
+  width: 100%;
+
+  & div {
+    width: 100%;
+  }
+}
+
 .filler {
   // height: 100vh;
   background-color: gray(70%);
